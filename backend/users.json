@@ -271,5 +271,12 @@
     "password": "password123",
     "created_at": "2025-09-26 19:46:49.269122",
     "_id": "68d6eda9b2cb92a1e93bafaf"
+  },
+  "0113d9f7-954d-419f-beb6-e2ce58571b84": {
+    "id": "0113d9f7-954d-419f-beb6-e2ce58571b84",
+    "username": "demousertest",
+    "password": "demopass123",
+    "created_at": "2025-09-26 20:14:02.674987",
+    "_id": "68d6f40ad5cbb9f1b4ff07fc"
   }
 }

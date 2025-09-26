@@ -1843,5 +1843,46 @@
     "updated_at": "2025-09-26T19:46:49.520257",
     "shareable_id": "4d0e1f34",
     "_id": "68d6eda9b2cb92a1e93bafb0"
+  },
+  "af9dd331-bbfa-4184-ab83-b32a5653f58f": {
+    "id": "af9dd331-bbfa-4184-ab83-b32a5653f58f",
+    "user_id": "0113d9f7-954d-419f-beb6-e2ce58571b84",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "special_roles": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-26T20:14:02.928835",
+    "updated_at": "2025-09-26T20:14:02.928836",
+    "shareable_id": "294257ea",
+    "_id": "68d6f40ad5cbb9f1b4ff07fd"
   }
 }
