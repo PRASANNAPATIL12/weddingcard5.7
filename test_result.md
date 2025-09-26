@@ -102,6 +102,108 @@
 #====================================================================================================
 
 user_problem_statement: >
+  Clone GitHub repository (https://github.com/PRASANNAPATIL12/weddingcard5.7.git) using provided GitHub token,
+  create branch feat/theme, keep everything exactly as is from GitHub, build and run the application using provided MongoDB credentials.
+  Fix the left sidebar theme section which is throwing "currentTheme is not defined" error when clicked, while the top navbar theme selection works fine.
+  Ensure theme data persists in MongoDB for each user and make wedding cards user-specific and personalized.
+
+backend:
+  - task: "Repository Setup and MongoDB Connection"
+    implemented: true
+    working: true
+    file: "/app/backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "main"
+          comment: "Successfully cloned GitHub repository, created feat/theme branch, configured MongoDB with provided credentials. Backend is running and connecting to MongoDB successfully."
+
+  - task: "Theme Backend API Support"
+    implemented: true
+    working: true
+    file: "/app/backend/server.py"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "main"
+          comment: "Backend already has theme management endpoint at PUT /api/wedding/theme with proper validation for classic/modern/boho themes. API tested successfully."
+
+frontend:
+  - task: "Application Build & Dependencies"
+    implemented: true
+    working: true
+    file: "/app/frontend/package.json"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "main"
+          comment: "Frontend successfully built with all dependencies installed using yarn. React app serving correctly."
+
+  - task: "Top Navigation Theme Selection"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/App.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: false
+    status_history:
+        - working: true
+          agent: "main"
+          comment: "Theme dropdown in top navigation works correctly. Can see Classic theme being applied and dropdown is functional."
+
+  - task: "Left Sidebar Theme Section Fix"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/LeftSidebar.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+        - working: false
+          agent: "main"
+          comment: "Initially throwing 'currentTheme is not defined' error when clicking Theme section in left sidebar"
+        - working: true
+          agent: "main"
+          comment: "Fixed by passing currentTheme, setCurrentTheme, and themes props to FormPopup component. Updated both component call and definition to accept these theme-related props for ThemeManager component."
+
+  - task: "User Authentication & Session Management"
+    implemented: true
+    working: "partially"
+    file: "/app/frontend/src/contexts/UserDataContext.js, /app/backend/server.py"
+    stuck_count: 1
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+        - working: false
+          agent: "main"
+          comment: "Frontend authentication flow has issues - users can register via backend API but frontend login/session management not working properly. Dashboard redirects back to login page."
+
+metadata:
+  created_by: "main_agent"
+  version: "1.0"
+  test_sequence: 1
+  run_ui: false
+
+test_plan:
+  current_focus:
+    - "Left Sidebar Theme Section Fix"
+    - "User Authentication & Session Management"
+  stuck_tasks:
+    - "User Authentication & Session Management"
+  test_all: false
+  test_priority: "high_first"
+
+agent_communication:
+    - agent: "main"
+      message: "Successfully cloned weddingcard5.7 repository, created feat/theme branch, fixed the theme section error by adding missing props to FormPopup component. The 'currentTheme is not defined' error has been resolved by passing theme context props (currentTheme, setCurrentTheme, themes) to the FormPopup component and updating its definition. Backend is working with MongoDB connection. Top navbar theme selection works correctly. Frontend authentication needs debugging for complete left sidebar functionality testing."
+
+user_problem_statement: >
   Clone GitHub repository (https://github.com/PRASANNAPATIL12/weddingcard5.6.git) 
   create branch feat/rsvp, keep everything exactly as is from GitHub, build and run the application using provided MongoDB credentials.
   Implement enhanced RSVP admin dashboard with two sections (Joyfully accepts/Regretfully declines) showing expandable cards with guest details.
