@@ -264,5 +264,12 @@
     "password": "password123",
     "created_at": "2025-09-26 17:29:07.707740",
     "_id": "68d6cd63da556341dc29ca7e"
+  },
+  "2bc7355f-bc14-4140-a213-c7a36c591186": {
+    "id": "2bc7355f-bc14-4140-a213-c7a36c591186",
+    "username": "testuser_theme",
+    "password": "password123",
+    "created_at": "2025-09-26 19:46:49.269122",
+    "_id": "68d6eda9b2cb92a1e93bafaf"
   }
 }
