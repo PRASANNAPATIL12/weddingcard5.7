@@ -1737,7 +1737,7 @@ const LeftSidebar = () => {
 };
 
 // Enhanced Form Popup Component with Auto-save and Premium Features
-const FormPopup = ({ sectionId, onClose, theme, modalRef }) => {
+const FormPopup = ({ sectionId, onClose, theme, modalRef, currentTheme, setCurrentTheme, themes }) => {
   const { weddingData, saveWeddingData } = useUserData();
   const [formData, setFormData] = useState({});
   const [saving, setSaving] = useState(false);
