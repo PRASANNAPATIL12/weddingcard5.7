@@ -1,0 +1,1847 @@
+{
+  "9f4ca4cf-7458-4a49-a21a-0cd9403cbfee": {
+    "couple_name_1": "Abhishek",
+    "couple_name_2": "Ananya",
+    "wedding_date": "2025-08-15",
+    "venue_name": "Royal Palace",
+    "venue_location": "Royal Palace \u2022 Bangalore, India",
+    "their_story": "Our beautiful love story begins here...",
+    "custom_url": "abhishek-ananya-wedding",
+    "updated_at": "2025-09-16T18:03:02.446962",
+    "user_id": "a88dbad9-86ae-4501-b658-6a623d790917",
+    "id": "9f4ca4cf-7458-4a49-a21a-0cd9403cbfee"
+  },
+  "089ebad4-41a5-4c45-8c83-c8b2e6aaa69a": {
+    "couple_name_1": "John",
+    "couple_name_2": "Elisa",
+    "wedding_date": "2025-09-20",
+    "venue_name": "Garden Paradise",
+    "venue_location": "Garden Paradise \u2022 California, USA",
+    "their_story": "Our love story started in college and continues to bloom...",
+    "custom_url": "john-elisa",
+    "updated_at": "2025-09-16T18:12:23.057874",
+    "user_id": "df85dd8a-e89a-474b-b083-4c46bba59a94",
+    "id": "089ebad4-41a5-4c45-8c83-c8b2e6aaa69a"
+  },
+  "fa63cb79-9eee-4ef0-8579-c41061123a76": {
+    "couple_name_1": "Raj",
+    "couple_name_2": "Priya",
+    "wedding_date": "2025-12-25",
+    "venue_name": "Palace Gardens",
+    "venue_location": "Palace Gardens \u2022 Delhi, India",
+    "their_story": "Our love story is like a Bollywood movie...",
+    "custom_url": "raj-priya-wedding",
+    "updated_at": "2025-09-16T18:13:18.477037",
+    "user_id": "2e150a81-7888-4bbf-96f7-972af5889562",
+    "id": "fa63cb79-9eee-4ef0-8579-c41061123a76"
+  },
+  "68e4d2a7-0ef7-4a4e-8185-3078dd0ad171": {
+    "id": "68e4d2a7-0ef7-4a4e-8185-3078dd0ad171",
+    "user_id": "d13fdb42-d88d-4325-939b-9095123134ad",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "custom_url": "real-test-user-wedding",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "created_at": "2025-09-16T18:16:56.728625",
+    "updated_at": "2025-09-16T18:16:56.728628",
+    "_id": "68c9a9985041f6ef694b75b5"
+  },
+  "2364d3b1-b784-47e8-b643-3b063755cbe8": {
+    "id": "2364d3b1-b784-47e8-b643-3b063755cbe8",
+    "user_id": "791e2bce-506e-4f04-bb35-900b747bd854",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "custom_url": "newuser-demo-wedding",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "created_at": "2025-09-17T17:43:51.986837",
+    "updated_at": "2025-09-17T17:43:51.986839",
+    "_id": "68caf3576bab27df4b6070a5"
+  },
+  "ef4de92d-fb38-40d9-a8e9-700c00462ff7": {
+    "couple_name_1": "John",
+    "couple_name_2": "Jane",
+    "wedding_date": "2025-09-20",
+    "venue_name": "Riverside Gardens",
+    "venue_location": "Riverside Gardens \u2022 New York, NY",
+    "their_story": "John and Jane met at a coffee shop in Manhattan and have been inseparable ever since.",
+    "custom_url": "john-jane-wedding",
+    "updated_at": "2025-09-17T17:45:44.442724",
+    "user_id": "90ce7abf-b0f5-4131-97f2-407221bee56a",
+    "id": "ef4de92d-fb38-40d9-a8e9-700c00462ff7"
+  },
+  "ca6e2eb8-e4a5-4f8f-91c3-6b4a64991b89": {
+    "couple_name_1": "ABCD",
+    "couple_name_2": "XYZ",
+    "wedding_date": "2025-08-15",
+    "venue_name": "Royal Palace Gardens",
+    "venue_location": "Royal Palace Gardens \u2022 Mumbai, India",
+    "their_story": "ABCD and XYZ met at a technology conference and fell in love over their shared passion for innovation.",
+    "updated_at": "2025-09-17T18:03:49.866772",
+    "user_id": "abcb502b-77f0-4e02-af4c-d472034c00d7",
+    "id": "ca6e2eb8-e4a5-4f8f-91c3-6b4a64991b89"
+  },
+  "6954b70a-7bd3-4742-9481-2dac282727f6": {
+    "couple_name_1": "Rahul",
+    "couple_name_2": "Priya",
+    "wedding_date": "2025-12-01",
+    "venue_name": "Beach Resort Paradise",
+    "venue_location": "Beach Resort Paradise \u2022 Goa, India",
+    "their_story": "Rahul and Priya met during college and have been inseparable ever since their first dance at the university festival.",
+    "updated_at": "2025-09-17T18:04:42.691864",
+    "user_id": "8f316385-7287-4da5-850d-053525d9f352",
+    "id": "6954b70a-7bd3-4742-9481-2dac282727f6"
+  },
+  "f80431bc-31d3-4135-87dc-671ad19b78a8": {
+    "couple_name_1": "ABCD",
+    "couple_name_2": "XYZ",
+    "wedding_date": "2025-10-10",
+    "venue_name": "Tech Park Convention Center",
+    "venue_location": "Tech Park Convention Center \u2022 Bangalore, India",
+    "their_story": "ABCD and XYZ are technology enthusiasts who met at a hackathon and decided to merge their lives like perfect code.",
+    "updated_at": "2025-09-17T18:11:28.289115",
+    "user_id": "c919d4cd-071b-42c4-af8f-92729aff86d2",
+    "id": "f80431bc-31d3-4135-87dc-671ad19b78a8"
+  },
+  "e9e0394f-acda-4384-bafa-38c1471f3e77": {
+    "couple_name_1": "TestUser456",
+    "couple_name_2": "TestPartner",
+    "wedding_date": "2025-08-15",
+    "venue_name": "Test Venue",
+    "venue_location": "Test Venue \u2022 Test City, Test State",
+    "their_story": "UPDATED: This is our test love story that has been updated to test the 'Failed to fetch' fix.",
+    "theme": "modern",
+    "updated_at": "2025-09-17T19:32:18.875979",
+    "user_id": "5eb3b383-9719-4daf-9a5e-8d86ca4969ec",
+    "id": "e9e0394f-acda-4384-bafa-38c1471f3e77"
+  },
+  "b4d26ba4-9c7e-491f-a0d6-a8c3deb93283": {
+    "id": "b4d26ba4-9c7e-491f-a0d6-a8c3deb93283",
+    "user_id": "81a8636e-b295-4101-8978-4c137c0e54ed",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "created_at": "2025-09-18T17:16:05.194643",
+    "updated_at": "2025-09-18T17:16:05.194645",
+    "_id": "68cc3e55615a90e0671916f2"
+  },
+  "c7a76c0b-4580-4662-ab69-c1c3ca4372f3": {
+    "id": "c7a76c0b-4580-4662-ab69-c1c3ca4372f3",
+    "user_id": "1bb770e3-3937-49da-805f-3bab9f08a30c",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "created_at": "2025-09-18T17:27:13.802793",
+    "updated_at": "2025-09-18T17:27:13.802796",
+    "shareable_id": "32492bf9",
+    "_id": "68cc40f10a1bd2e008cf30c0"
+  },
+  "cc985fe8-c444-482d-bf22-e7157c8fd169": {
+    "id": "cc985fe8-c444-482d-bf22-e7157c8fd169",
+    "user_id": "dc10e145-7025-4994-925b-f27e0948be1c",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "created_at": "2025-09-18T17:28:52.286044",
+    "updated_at": "2025-09-18T17:28:52.286047",
+    "shareable_id": "466b49f4",
+    "_id": "68cc41540a1bd2e008cf30c2"
+  },
+  "8b7ca1ae-71d7-4724-a492-77222cc3e023": {
+    "couple_name_1": "Shraddha",
+    "couple_name_2": "Deepak",
+    "wedding_date": "2025-08-15",
+    "venue_name": "Beautiful Garden Resort",
+    "venue_location": "Beautiful Garden Resort \u2022 Mumbai, India",
+    "their_story": "Our love story began in college and continues with this beautiful celebration.",
+    "updated_at": "2025-09-18T18:15:38.726770",
+    "user_id": "f93b9c53-6c17-4c10-9088-7bb96d0d42ef",
+    "id": "8b7ca1ae-71d7-4724-a492-77222cc3e023"
+  },
+  "15b886b4-989a-4506-b458-d032094107d0": {
+    "id": "15b886b4-989a-4506-b458-d032094107d0",
+    "user_id": "335527f2-bf99-498a-bb1e-007afb11e9f7",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "created_at": "2025-09-18T18:17:11.111746",
+    "updated_at": "2025-09-18T18:17:11.111748",
+    "shareable_id": "1b828c7f",
+    "_id": "68cc4ca77d6d5cdec705713b"
+  },
+  "99d98819-d93b-46d0-8557-dd0b270c3b36": {
+    "couple_name_1": "Shraddha",
+    "couple_name_2": "Deepak",
+    "wedding_date": "2025-12-15",
+    "venue_name": "Royal Palace Hotel",
+    "venue_location": "Royal Palace Hotel \u2022 Delhi, India",
+    "their_story": "A beautiful love story that started in college and continues with this grand celebration.",
+    "updated_at": "2025-09-18T18:18:05.199797",
+    "user_id": "874afa0f-b436-4b93-9cdb-88e63a35d09f",
+    "id": "99d98819-d93b-46d0-8557-dd0b270c3b36"
+  },
+  "236d021a-f5d0-455f-ae37-708d199dd8c4": {
+    "couple_name_1": "sdf",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning. Sarah ordered a lavender latte, and Michael couldn't stop staring at her beautiful smile.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2020",
+        "title": "First Date",
+        "description": "Our first official date was a sunset picnic in Golden Gate Park. We talked for hours about our dreams, travels, and favorite books under the stars.",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2021",
+        "title": "Moving In Together",
+        "description": "After a year of long-distance dating, we decided to take the next step and move in together. Our first apartment was tiny but filled with so much love.",
+        "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2023",
+        "title": "The Proposal",
+        "description": "Michael proposed during our vacation in Santorini, Greece. As the sun set over the Aegean Sea, he got down on one knee with Sarah's grandmother's ring.",
+        "image": "https://images.unsplash.com/photo-1597248374161-426f3d6f1f6b?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2025",
+        "title": "Our Wedding Day",
+        "description": "And now, we're ready to say 'I do' surrounded by our family and friends. This is just the beginning of our beautiful journey together.",
+        "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling before the ceremony begins.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "icon": "Users",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "2:30 PM",
+        "title": "Pre-Ceremony Music",
+        "description": "Enjoy live acoustic music as guests are seated for the ceremony.",
+        "location": "Garden Ceremony Space",
+        "icon": "Music",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "3:00 PM",
+        "title": "Wedding Ceremony",
+        "description": "The main event! Sarah and Michael exchange vows in our beautiful garden setting.",
+        "location": "Sunset Garden Estate - Ceremony Garden",
+        "icon": "Calendar",
+        "duration": "45 minutes",
+        "highlight": true
+      },
+      {
+        "time": "3:45 PM",
+        "title": "Cocktail Hour & Photos",
+        "description": "Celebrate with signature cocktails while the wedding party takes photos.",
+        "location": "Terrace & Garden Areas",
+        "icon": "Camera",
+        "duration": "1 hour 15 minutes"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Reception Dinner",
+        "description": "Join us for a three-course dinner featuring locally sourced ingredients.",
+        "location": "Grand Ballroom",
+        "icon": "Utensils",
+        "duration": "2 hours"
+      },
+      {
+        "time": "7:30 PM",
+        "title": "First Dance & Toasts",
+        "description": "Watch the newlyweds' first dance followed by heartfelt toasts from family and friends.",
+        "location": "Grand Ballroom",
+        "icon": "Music",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "8:00 PM",
+        "title": "Dancing & Celebration",
+        "description": "Dance the night away with live music and DJ entertainment.",
+        "location": "Grand Ballroom & Terrace",
+        "icon": "Music",
+        "duration": "4 hours"
+      }
+    ],
+    "gallery_photos": [
+      {
+        "id": 1,
+        "src": "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "Engagement Session"
+      },
+      {
+        "id": 2,
+        "src": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&h=600&fit=crop",
+        "category": "travel",
+        "title": "Paris Adventure"
+      },
+      {
+        "id": 3,
+        "src": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "Golden Hour"
+      },
+      {
+        "id": 4,
+        "src": "https://images.unsplash.com/photo-1597248374161-426f3d6f1f6b?w=800&h=600&fit=crop",
+        "category": "travel",
+        "title": "Santorini Sunset"
+      },
+      {
+        "id": 5,
+        "src": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop",
+        "category": "family",
+        "title": "Family Gathering"
+      },
+      {
+        "id": 6,
+        "src": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&h=600&fit=crop",
+        "category": "friends",
+        "title": "With Our Gang"
+      },
+      {
+        "id": 7,
+        "src": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "Candid Moments"
+      },
+      {
+        "id": 8,
+        "src": "https://images.unsplash.com/photo-1594736797933-d0c4a30e71a0?w=800&h=600&fit=crop",
+        "category": "travel",
+        "title": "Beach Getaway"
+      },
+      {
+        "id": 9,
+        "src": "https://images.unsplash.com/photo-1606490194859-07c18c9f0968?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "The Proposal"
+      }
+    ],
+    "bridal_party": [
+      {
+        "name": "Emily Johnson",
+        "role": "Maid of Honor",
+        "relationship": "Sister & Best Friend",
+        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b734?w=400&h=400&fit=crop&crop=face",
+        "description": "Sarah's older sister and lifelong confidante. Emily has been there through every milestone and couldn't be more excited to stand by Sarah's side."
+      },
+      {
+        "name": "Jessica Chen",
+        "role": "Bridesmaid",
+        "relationship": "College Roommate",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+        "description": "Met Sarah in freshman year and they've been inseparable ever since. Jessica brings laughter and adventure to every situation."
+      },
+      {
+        "name": "Amanda Rodriguez",
+        "role": "Bridesmaid",
+        "relationship": "Work Best Friend",
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&crop=face",
+        "description": "Sarah's partner-in-crime at work who became family. Amanda is known for her infectious smile and unwavering loyalty."
+      },
+      {
+        "name": "Sophie Williams",
+        "role": "Bridesmaid",
+        "relationship": "Childhood Friend",
+        "image": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=400&h=400&fit=crop&crop=face",
+        "description": "Friends since elementary school, Sophie knows all of Sarah's secrets and dreams. Their friendship has stood the test of time."
+      }
+    ],
+    "groom_party": [
+      {
+        "name": "David Thompson",
+        "role": "Best Man",
+        "relationship": "Brother & Confidant",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+        "description": "Michael's younger brother and best friend. David has always looked up to Michael and is honored to be his best man on this special day."
+      },
+      {
+        "name": "Ryan Mitchell",
+        "role": "Groomsman",
+        "relationship": "College Buddy",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
+        "description": "Michael's college roommate and adventure partner. Ryan introduced Michael to rock climbing and they've been conquering peaks together ever since."
+      },
+      {
+        "name": "James Park",
+        "role": "Groomsman",
+        "relationship": "Work Colleague",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        "description": "Started as colleagues but quickly became close friends. James is Michael's go-to person for both professional advice and weekend golf games."
+      },
+      {
+        "name": "Alex Turner",
+        "role": "Groomsman",
+        "relationship": "Childhood Friend",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop&crop=face",
+        "description": "Friends since they were kids in the same neighborhood. Alex and Michael have shared countless memories and adventures growing up together."
+      }
+    ],
+    "registry_items": [
+      {
+        "store": "Williams Sonoma",
+        "description": "For all our kitchen and cooking needs as we start our married life together.",
+        "url": "https://www.williams-sonoma.com",
+        "icon": "Coffee",
+        "color": "#E8B4B8"
+      },
+      {
+        "store": "Crate & Barrel",
+        "description": "Home essentials and beautiful pieces to make our house a home.",
+        "url": "https://www.crateandbarrel.com",
+        "icon": "Home",
+        "color": "#A8C8EC"
+      },
+      {
+        "store": "Amazon",
+        "description": "Everything else we need for our new adventure together.",
+        "url": "https://www.amazon.com",
+        "icon": "Gift",
+        "color": "#F4C2A1"
+      }
+    ],
+    "honeymoon_fund": {
+      "title": "Honeymoon Fund",
+      "description": "Help us create unforgettable memories on our honeymoon to Japan. Every contribution, big or small, means the world to us!",
+      "destination": "Tokyo & Kyoto, Japan",
+      "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=400&fit=crop"
+    },
+    "faqs": [
+      {
+        "category": "Wedding Details",
+        "icon": "HelpCircle",
+        "questions": [
+          {
+            "question": "What time should I arrive?",
+            "answer": "Please arrive by 2:30 PM. The ceremony will begin promptly at 3:00 PM. We recommend arriving 30 minutes early to find parking and get seated comfortably."
+          },
+          {
+            "question": "What is the dress code?",
+            "answer": "We've requested formal/black-tie optional attire. We encourage elegant wear in garden-friendly footwear as parts of our celebration will be outdoors on grass and pathways."
+          },
+          {
+            "question": "Will the ceremony be indoors or outdoors?",
+            "answer": "Our ceremony will be held outdoors in the beautiful garden setting at Sunset Garden Estate. Don't worry - we have a covered backup plan in case of inclement weather!"
+          }
+        ]
+      }
+    ],
+    "theme": "classic",
+    "updated_at": "2025-09-18T18:38:13.544625",
+    "user_id": "757d6e76-65f8-423f-a7b6-76c3e5f176ab",
+    "id": "236d021a-f5d0-455f-ae37-708d199dd8c4"
+  },
+  "e4c4d77b-f769-4332-88ca-7e8a93607898": {
+    "couple_name_1": "TestBride",
+    "couple_name_2": "TestGroom",
+    "wedding_date": "2025-12-25",
+    "venue_name": "Test Wedding Venue",
+    "venue_location": "Test Wedding Venue \u2022 Test City, Test State",
+    "their_story": "This is our test love story to verify the 401 fix is working.",
+    "theme": "classic",
+    "updated_at": "2025-09-18T18:32:56.571339",
+    "user_id": "b7b22f7a-cddf-451e-891e-4763be3c0c28",
+    "id": "e4c4d77b-f769-4332-88ca-7e8a93607898"
+  },
+  "e163e214-4b6d-4bb6-8218-541313d46069": {
+    "couple_name_1": "TestFinal1",
+    "couple_name_2": "TestFinal2",
+    "wedding_date": "2025-12-31",
+    "venue_name": "Final Test Venue",
+    "venue_location": "Final Test Venue \u2022 Test City",
+    "their_story": "Final test story",
+    "updated_at": "2025-09-18T18:36:48.508623",
+    "user_id": "fbd78f88-8f62-45fe-8af7-abef4d082e11",
+    "id": "e163e214-4b6d-4bb6-8218-541313d46069"
+  },
+  "246c96f6-7118-40c7-8093-9d628f93a0a9": {
+    "couple_name_1": "Ankith",
+    "couple_name_2": "Shreya",
+    "wedding_date": "2025-09-15",
+    "venue_name": "Royal Gardens",
+    "venue_location": "Royal Gardens \u2022 Bangalore, India",
+    "their_story": "Our beautiful love story began in college...",
+    "updated_at": "2025-09-18T19:14:06.259087",
+    "user_id": "5723dc45-8110-4663-bf1c-8dbba487793e",
+    "id": "246c96f6-7118-40c7-8093-9d628f93a0a9"
+  },
+  "eafe5ff0-4aea-4d6a-a705-aaab655595ed": {
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling before the ceremony begins.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "icon": "Users",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "2:30 PM",
+        "title": "Pre-Ceremony Music",
+        "description": "Enjoy live acoustic music as guests are seated for the ceremony.",
+        "location": "Garden Ceremony Space",
+        "icon": "Music",
+        "duration": "30 minutes"
+      },
+      {
+        "id": "1758879020129",
+        "time": "3:00 PM",
+        "title": "Wedding Ceremony",
+        "description": "The main event! Sarah and Michael exchange vows in our beautiful garden setting.",
+        "location": "Sunset Garden Estate - Ceremony Garden",
+        "duration": "45 minutes",
+        "date": "2025-10-03",
+        "highlight": true
+      },
+      {
+        "time": "3:45 PM",
+        "title": "Cocktail Hour & Photos",
+        "description": "Celebrate with signature cocktails while the wedding party takes photos.",
+        "location": "Terrace & Garden Areas",
+        "icon": "Camera",
+        "duration": "1 hour 15 minutes"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Reception Dinner",
+        "description": "Join us for a three-course dinner featuring locally sourced ingredients.",
+        "location": "Grand Ballroom",
+        "icon": "Utensils",
+        "duration": "2 hours"
+      },
+      {
+        "time": "7:30 PM",
+        "title": "First Dance & Toasts",
+        "description": "Watch the newlyweds' first dance followed by heartfelt toasts from family and friends.",
+        "location": "Grand Ballroom",
+        "icon": "Music",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "8:00 PM",
+        "title": "Dancing & Celebration",
+        "description": "Dance the night away with live music and DJ entertainment.",
+        "location": "Grand Ballroom & Terrace",
+        "icon": "Music",
+        "duration": "4 hours"
+      }
+    ],
+    "updated_at": "2025-09-26T09:30:21.168703",
+    "user_id": "78ab1adb-86bf-4575-8655-93a0d581c234",
+    "id": "eafe5ff0-4aea-4d6a-a705-aaab655595ed",
+    "shareable_id": "7703da81",
+    "created_at": "2025-09-18T19:17:38.849399"
+  },
+  "184d13dc-93ae-4fb4-8055-0889106ce0aa": {
+    "couple_name_1": "John",
+    "couple_name_2": "Alice",
+    "wedding_date": "2025-12-25",
+    "venue_name": "Grand Hotel",
+    "venue_location": "Grand Hotel \u2022 New York City",
+    "their_story": "Our love story began in a coffee shop and now we are ready to say I do!",
+    "updated_at": "2025-09-20T07:00:16.133656",
+    "user_id": "80363430-bf36-4f43-9ccc-e7d2181e3fa4",
+    "id": "184d13dc-93ae-4fb4-8055-0889106ce0aa"
+  },
+  "3a7b24d8-4b6c-46b7-b2ad-e2afd2533106": {
+    "couple_name_1": "Alice",
+    "couple_name_2": "Bob",
+    "wedding_date": "2025-12-25",
+    "venue_name": "Mountain View Resort",
+    "venue_location": "Mountain View Resort \u2022 Colorado Springs, Colorado",
+    "their_story": "Alice and Bob met at a coding bootcamp and fell in love over debugging sessions. Their wedding will be a celebration of love, technology, and endless possibilities.",
+    "theme": "modern",
+    "updated_at": "2025-09-20T07:06:18.421772",
+    "user_id": "f9e2b14d-0ce9-4120-8005-72a48c27b548",
+    "id": "3a7b24d8-4b6c-46b7-b2ad-e2afd2533106"
+  },
+  "16e0b521-1fae-469d-a46f-1f257b1ee4ff": {
+    "couple_name_1": "shiva",
+    "couple_name_2": "shreya",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning. Sarah ordered a lavender latte, and Michael couldn't stop staring at her beautiful smile.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2020",
+        "title": "First Date",
+        "description": "Our first official date was a sunset picnic in Golden Gate Park. We talked for hours about our dreams, travels, and favorite books under the stars.",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2021",
+        "title": "Moving In Together",
+        "description": "After a year of long-distance dating, we decided to take the next step and move in together. Our first apartment was tiny but filled with so much love.",
+        "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2023",
+        "title": "The Proposal",
+        "description": "Michael proposed during our vacation in Santorini, Greece. As the sun set over the Aegean Sea, he got down on one knee with Sarah's grandmother's ring.",
+        "image": "https://images.unsplash.com/photo-1597248374161-426f3d6f1f6b?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2025",
+        "title": "Our Wedding Day",
+        "description": "And now, we're ready to say 'I do' surrounded by our family and friends. This is just the beginning of our beautiful journey together.",
+        "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling before the ceremony begins.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "icon": "Users",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "2:30 PM",
+        "title": "Pre-Ceremony Music",
+        "description": "Enjoy live acoustic music as guests are seated for the ceremony.",
+        "location": "Garden Ceremony Space",
+        "icon": "Music",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "3:00 PM",
+        "title": "Wedding Ceremony",
+        "description": "The main event! Sarah and Michael exchange vows in our beautiful garden setting.",
+        "location": "Sunset Garden Estate - Ceremony Garden",
+        "icon": "Calendar",
+        "duration": "45 minutes",
+        "highlight": true
+      },
+      {
+        "time": "3:45 PM",
+        "title": "Cocktail Hour & Photos",
+        "description": "Celebrate with signature cocktails while the wedding party takes photos.",
+        "location": "Terrace & Garden Areas",
+        "icon": "Camera",
+        "duration": "1 hour 15 minutes"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Reception Dinner",
+        "description": "Join us for a three-course dinner featuring locally sourced ingredients.",
+        "location": "Grand Ballroom",
+        "icon": "Utensils",
+        "duration": "2 hours"
+      },
+      {
+        "time": "7:30 PM",
+        "title": "First Dance & Toasts",
+        "description": "Watch the newlyweds' first dance followed by heartfelt toasts from family and friends.",
+        "location": "Grand Ballroom",
+        "icon": "Music",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "8:00 PM",
+        "title": "Dancing & Celebration",
+        "description": "Dance the night away with live music and DJ entertainment.",
+        "location": "Grand Ballroom & Terrace",
+        "icon": "Music",
+        "duration": "4 hours"
+      }
+    ],
+    "gallery_photos": [
+      {
+        "id": 1,
+        "src": "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "Engagement Session"
+      },
+      {
+        "id": 2,
+        "src": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&h=600&fit=crop",
+        "category": "travel",
+        "title": "Paris Adventure"
+      },
+      {
+        "id": 3,
+        "src": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "Golden Hour"
+      },
+      {
+        "id": 4,
+        "src": "https://images.unsplash.com/photo-1597248374161-426f3d6f1f6b?w=800&h=600&fit=crop",
+        "category": "travel",
+        "title": "Santorini Sunset"
+      },
+      {
+        "id": 5,
+        "src": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop",
+        "category": "family",
+        "title": "Family Gathering"
+      },
+      {
+        "id": 6,
+        "src": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&h=600&fit=crop",
+        "category": "friends",
+        "title": "With Our Gang"
+      },
+      {
+        "id": 7,
+        "src": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "Candid Moments"
+      },
+      {
+        "id": 8,
+        "src": "https://images.unsplash.com/photo-1594736797933-d0c4a30e71a0?w=800&h=600&fit=crop",
+        "category": "travel",
+        "title": "Beach Getaway"
+      },
+      {
+        "id": 9,
+        "src": "https://images.unsplash.com/photo-1606490194859-07c18c9f0968?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "The Proposal"
+      }
+    ],
+    "bridal_party": [
+      {
+        "name": "Emily Johnson",
+        "role": "Maid of Honor",
+        "relationship": "Sister & Best Friend",
+        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b734?w=400&h=400&fit=crop&crop=face",
+        "description": "Sarah's older sister and lifelong confidante. Emily has been there through every milestone and couldn't be more excited to stand by Sarah's side."
+      },
+      {
+        "name": "Jessica Chen",
+        "role": "Bridesmaid",
+        "relationship": "College Roommate",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+        "description": "Met Sarah in freshman year and they've been inseparable ever since. Jessica brings laughter and adventure to every situation."
+      },
+      {
+        "name": "Amanda Rodriguez",
+        "role": "Bridesmaid",
+        "relationship": "Work Best Friend",
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&crop=face",
+        "description": "Sarah's partner-in-crime at work who became family. Amanda is known for her infectious smile and unwavering loyalty."
+      },
+      {
+        "name": "Sophie Williams",
+        "role": "Bridesmaid",
+        "relationship": "Childhood Friend",
+        "image": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=400&h=400&fit=crop&crop=face",
+        "description": "Friends since elementary school, Sophie knows all of Sarah's secrets and dreams. Their friendship has stood the test of time."
+      }
+    ],
+    "groom_party": [
+      {
+        "name": "David Thompson",
+        "role": "Best Man",
+        "relationship": "Brother & Confidant",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+        "description": "Michael's younger brother and best friend. David has always looked up to Michael and is honored to be his best man on this special day."
+      },
+      {
+        "name": "Ryan Mitchell",
+        "role": "Groomsman",
+        "relationship": "College Buddy",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
+        "description": "Michael's college roommate and adventure partner. Ryan introduced Michael to rock climbing and they've been conquering peaks together ever since."
+      },
+      {
+        "name": "James Park",
+        "role": "Groomsman",
+        "relationship": "Work Colleague",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        "description": "Started as colleagues but quickly became close friends. James is Michael's go-to person for both professional advice and weekend golf games."
+      },
+      {
+        "name": "Alex Turner",
+        "role": "Groomsman",
+        "relationship": "Childhood Friend",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop&crop=face",
+        "description": "Friends since they were kids in the same neighborhood. Alex and Michael have shared countless memories and adventures growing up together."
+      }
+    ],
+    "registry_items": [
+      {
+        "store": "Williams Sonoma",
+        "description": "For all our kitchen and cooking needs as we start our married life together.",
+        "url": "https://www.williams-sonoma.com",
+        "icon": "Coffee",
+        "color": "#E8B4B8"
+      },
+      {
+        "store": "Crate & Barrel",
+        "description": "Home essentials and beautiful pieces to make our house a home.",
+        "url": "https://www.crateandbarrel.com",
+        "icon": "Home",
+        "color": "#A8C8EC"
+      },
+      {
+        "store": "Amazon",
+        "description": "Everything else we need for our new adventure together.",
+        "url": "https://www.amazon.com",
+        "icon": "Gift",
+        "color": "#F4C2A1"
+      }
+    ],
+    "honeymoon_fund": {
+      "title": "Honeymoon Fund",
+      "description": "Help us create unforgettable memories on our honeymoon to Japan. Every contribution, big or small, means the world to us!",
+      "destination": "Tokyo & Kyoto, Japan",
+      "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=400&fit=crop"
+    },
+    "faqs": [
+      {
+        "category": "Wedding Details",
+        "icon": "HelpCircle",
+        "questions": [
+          {
+            "question": "What time should I arrive?",
+            "answer": "Please arrive by 2:30 PM. The ceremony will begin promptly at 3:00 PM. We recommend arriving 30 minutes early to find parking and get seated comfortably."
+          },
+          {
+            "question": "What is the dress code?",
+            "answer": "We've requested formal/black-tie optional attire. We encourage elegant wear in garden-friendly footwear as parts of our celebration will be outdoors on grass and pathways."
+          },
+          {
+            "question": "Will the ceremony be indoors or outdoors?",
+            "answer": "Our ceremony will be held outdoors in the beautiful garden setting at Sunset Garden Estate. Don't worry - we have a covered backup plan in case of inclement weather!"
+          }
+        ]
+      }
+    ],
+    "theme": "classic",
+    "updated_at": "2025-09-20T07:21:23.565520",
+    "user_id": "d30a54af-3c6b-4d5c-8324-4d5f825b34c8",
+    "id": "16e0b521-1fae-469d-a46f-1f257b1ee4ff"
+  },
+  "5fdb7961-c7a1-40a2-ae29-c34b44361ba1": {
+    "couple_name_1": "Emma",
+    "couple_name_2": "James",
+    "wedding_date": "2025-10-15",
+    "venue_name": "Beach Resort",
+    "venue_location": "Beach Resort \u2022 Miami Beach",
+    "their_story": "Our beach love story is ready to be celebrated!",
+    "updated_at": "2025-09-20T07:18:40.799367",
+    "user_id": "08df281b-b8b5-4f64-8840-ba11918929f6",
+    "id": "5fdb7961-c7a1-40a2-ae29-c34b44361ba1"
+  },
+  "144373fb-a519-43f6-a63a-f2c6b97933a9": {
+    "couple_name_1": "Basu",
+    "couple_name_2": "Shreya",
+    "wedding_date": "2025-08-15",
+    "venue_name": "Updated Grand Palace",
+    "venue_location": "Mumbai, India - Updated",
+    "their_story": "Our updated beautiful love story...",
+    "theme": "modern",
+    "updated_at": "2025-09-21T17:52:17.298672",
+    "user_id": "8404be5c-5ebe-47dc-8e25-5c8f520ed85c",
+    "id": "144373fb-a519-43f6-a63a-f2c6b97933a9",
+    "shareable_id": "ed1173aa",
+    "created_at": "2025-09-21T17:34:15.963131"
+  },
+  "93aa6546-340b-4d21-8483-9accb8e22249": {
+    "couple_name_1": "shivaji",
+    "couple_name_2": "sneha",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning. Sarah ordered a lavender latte, and Michael couldn't stop staring at her beautiful smile.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2020",
+        "title": "First Date",
+        "description": "Our first official date was a sunset picnic in Golden Gate Park. We talked for hours about our dreams, travels, and favorite books under the stars.",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2021",
+        "title": "Moving In Together",
+        "description": "After a year of long-distance dating, we decided to take the next step and move in together. Our first apartment was tiny but filled with so much love.",
+        "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2023",
+        "title": "The Proposal",
+        "description": "Michael proposed during our vacation in Santorini, Greece. As the sun set over the Aegean Sea, he got down on one knee with Sarah's grandmother's ring.",
+        "image": "https://images.unsplash.com/photo-1597248374161-426f3d6f1f6b?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2025",
+        "title": "Our Wedding Day",
+        "description": "And now, we're ready to say 'I do' surrounded by our family and friends. This is just the beginning of our beautiful journey together.",
+        "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling before the ceremony begins.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "icon": "Users",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "2:30 PM",
+        "title": "Pre-Ceremony Music",
+        "description": "Enjoy live acoustic music as guests are seated for the ceremony.",
+        "location": "Garden Ceremony Space",
+        "icon": "Music",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "3:00 PM",
+        "title": "Wedding Ceremony",
+        "description": "The main event! Sarah and Michael exchange vows in our beautiful garden setting.",
+        "location": "Sunset Garden Estate - Ceremony Garden",
+        "icon": "Calendar",
+        "duration": "45 minutes",
+        "highlight": true
+      },
+      {
+        "time": "3:45 PM",
+        "title": "Cocktail Hour & Photos",
+        "description": "Celebrate with signature cocktails while the wedding party takes photos.",
+        "location": "Terrace & Garden Areas",
+        "icon": "Camera",
+        "duration": "1 hour 15 minutes"
+      },
+      {
+        "time": "5:00 PM",
+        "title": "Reception Dinner",
+        "description": "Join us for a three-course dinner featuring locally sourced ingredients.",
+        "location": "Grand Ballroom",
+        "icon": "Utensils",
+        "duration": "2 hours"
+      },
+      {
+        "time": "7:30 PM",
+        "title": "First Dance & Toasts",
+        "description": "Watch the newlyweds' first dance followed by heartfelt toasts from family and friends.",
+        "location": "Grand Ballroom",
+        "icon": "Music",
+        "duration": "30 minutes"
+      },
+      {
+        "time": "8:00 PM",
+        "title": "Dancing & Celebration",
+        "description": "Dance the night away with live music and DJ entertainment.",
+        "location": "Grand Ballroom & Terrace",
+        "icon": "Music",
+        "duration": "4 hours"
+      }
+    ],
+    "gallery_photos": [
+      {
+        "id": 1,
+        "src": "https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "Engagement Session"
+      },
+      {
+        "id": 2,
+        "src": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&h=600&fit=crop",
+        "category": "travel",
+        "title": "Paris Adventure"
+      },
+      {
+        "id": 3,
+        "src": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "Golden Hour"
+      },
+      {
+        "id": 4,
+        "src": "https://images.unsplash.com/photo-1597248374161-426f3d6f1f6b?w=800&h=600&fit=crop",
+        "category": "travel",
+        "title": "Santorini Sunset"
+      },
+      {
+        "id": 5,
+        "src": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop",
+        "category": "family",
+        "title": "Family Gathering"
+      },
+      {
+        "id": 6,
+        "src": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&h=600&fit=crop",
+        "category": "friends",
+        "title": "With Our Gang"
+      },
+      {
+        "id": 7,
+        "src": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "Candid Moments"
+      },
+      {
+        "id": 8,
+        "src": "https://images.unsplash.com/photo-1594736797933-d0c4a30e71a0?w=800&h=600&fit=crop",
+        "category": "travel",
+        "title": "Beach Getaway"
+      },
+      {
+        "id": 9,
+        "src": "https://images.unsplash.com/photo-1606490194859-07c18c9f0968?w=800&h=600&fit=crop",
+        "category": "engagement",
+        "title": "The Proposal"
+      }
+    ],
+    "bridal_party": [
+      {
+        "name": "Emily Johnson",
+        "role": "Maid of Honor",
+        "relationship": "Sister & Best Friend",
+        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b734?w=400&h=400&fit=crop&crop=face",
+        "description": "Sarah's older sister and lifelong confidante. Emily has been there through every milestone and couldn't be more excited to stand by Sarah's side."
+      },
+      {
+        "name": "Jessica Chen",
+        "role": "Bridesmaid",
+        "relationship": "College Roommate",
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+        "description": "Met Sarah in freshman year and they've been inseparable ever since. Jessica brings laughter and adventure to every situation."
+      },
+      {
+        "name": "Amanda Rodriguez",
+        "role": "Bridesmaid",
+        "relationship": "Work Best Friend",
+        "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop&crop=face",
+        "description": "Sarah's partner-in-crime at work who became family. Amanda is known for her infectious smile and unwavering loyalty."
+      },
+      {
+        "name": "Sophie Williams",
+        "role": "Bridesmaid",
+        "relationship": "Childhood Friend",
+        "image": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=400&h=400&fit=crop&crop=face",
+        "description": "Friends since elementary school, Sophie knows all of Sarah's secrets and dreams. Their friendship has stood the test of time."
+      }
+    ],
+    "groom_party": [
+      {
+        "name": "David Thompson",
+        "role": "Best Man",
+        "relationship": "Brother & Confidant",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+        "description": "Michael's younger brother and best friend. David has always looked up to Michael and is honored to be his best man on this special day."
+      },
+      {
+        "name": "Ryan Mitchell",
+        "role": "Groomsman",
+        "relationship": "College Buddy",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
+        "description": "Michael's college roommate and adventure partner. Ryan introduced Michael to rock climbing and they've been conquering peaks together ever since."
+      },
+      {
+        "name": "James Park",
+        "role": "Groomsman",
+        "relationship": "Work Colleague",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        "description": "Started as colleagues but quickly became close friends. James is Michael's go-to person for both professional advice and weekend golf games."
+      },
+      {
+        "name": "Alex Turner",
+        "role": "Groomsman",
+        "relationship": "Childhood Friend",
+        "image": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop&crop=face",
+        "description": "Friends since they were kids in the same neighborhood. Alex and Michael have shared countless memories and adventures growing up together."
+      }
+    ],
+    "registry_items": [
+      {
+        "store": "Williams Sonoma",
+        "description": "For all our kitchen and cooking needs as we start our married life together.",
+        "url": "https://www.williams-sonoma.com",
+        "icon": "Coffee",
+        "color": "#E8B4B8"
+      },
+      {
+        "store": "Crate & Barrel",
+        "description": "Home essentials and beautiful pieces to make our house a home.",
+        "url": "https://www.crateandbarrel.com",
+        "icon": "Home",
+        "color": "#A8C8EC"
+      },
+      {
+        "store": "Amazon",
+        "description": "Everything else we need for our new adventure together.",
+        "url": "https://www.amazon.com",
+        "icon": "Gift",
+        "color": "#F4C2A1"
+      }
+    ],
+    "honeymoon_fund": {
+      "title": "Honeymoon Fund",
+      "description": "Help us create unforgettable memories on our honeymoon to Japan. Every contribution, big or small, means the world to us!",
+      "destination": "Tokyo & Kyoto, Japan",
+      "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&h=400&fit=crop"
+    },
+    "faqs": [
+      {
+        "category": "Wedding Details",
+        "icon": "HelpCircle",
+        "questions": [
+          {
+            "question": "What time should I arrive?",
+            "answer": "Please arrive by 2:30 PM. The ceremony will begin promptly at 3:00 PM. We recommend arriving 30 minutes early to find parking and get seated comfortably."
+          },
+          {
+            "question": "What is the dress code?",
+            "answer": "We've requested formal/black-tie optional attire. We encourage elegant wear in garden-friendly footwear as parts of our celebration will be outdoors on grass and pathways."
+          },
+          {
+            "question": "Will the ceremony be indoors or outdoors?",
+            "answer": "Our ceremony will be held outdoors in the beautiful garden setting at Sunset Garden Estate. Don't worry - we have a covered backup plan in case of inclement weather!"
+          }
+        ]
+      }
+    ],
+    "theme": "classic",
+    "updated_at": "2025-09-21T18:17:12.086669",
+    "user_id": "a59df3ad-3e6f-48ca-bb2a-6de682ddd3f2",
+    "id": "93aa6546-340b-4d21-8483-9accb8e22249",
+    "shareable_id": "c458f6c8",
+    "created_at": "2025-09-21T18:16:49.447936"
+  },
+  "09eff663-fc9f-4d1f-9827-e1e3ef65bbb6": {
+    "id": "09eff663-fc9f-4d1f-9827-e1e3ef65bbb6",
+    "user_id": "b29745c5-1388-4069-ad01-4d78825baf70",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "created_at": "2025-09-23T15:33:50.137887",
+    "updated_at": "2025-09-23T15:33:50.137889",
+    "shareable_id": "80640e57",
+    "_id": "68d2bddeb3466d2d3780f81b"
+  },
+  "b2e3d76c-3653-49e6-8d48-792df8672290": {
+    "couple_name_1": "Priya",
+    "couple_name_2": "Raj",
+    "wedding_date": "2025-12-15",
+    "venue_name": "Royal Gardens Resort",
+    "venue_location": "Royal Gardens Resort \u2022 Mumbai, Maharashtra",
+    "their_story": "Our love story began in college.",
+    "story_timeline": [
+      {
+        "year": "2020",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop during the pandemic lockdown.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2022",
+        "title": "First Date",
+        "description": "Our first official date was at a local restaurant.",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop"
+      },
+      {
+        "year": "2024",
+        "title": "The Proposal",
+        "description": "He proposed during a sunset walk on the beach.",
+        "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop"
+      }
+    ],
+    "story_enabled": false,
+    "theme": "elegant",
+    "updated_at": "2025-09-23T16:18:00.956738",
+    "user_id": "905806d3-cd8a-4728-a0d5-462b793f0950",
+    "id": "b2e3d76c-3653-49e6-8d48-792df8672290",
+    "shareable_id": "8617d6a8",
+    "created_at": "2025-09-23T16:17:57.554744"
+  },
+  "ad7786be-6c79-479a-a5b6-b9185cc6195e": {
+    "id": "ad7786be-6c79-479a-a5b6-b9185cc6195e",
+    "user_id": "5175283a-bd0f-4665-bc3d-9ab57dcc844f",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-24T12:20:41.518349",
+    "updated_at": "2025-09-24T12:20:41.518351",
+    "shareable_id": "132d3713",
+    "_id": "68d3e2194ee05f616fb4ef76"
+  },
+  "b5f544c2-bdc3-47c0-89b9-1608d2674bf5": {
+    "id": "b5f544c2-bdc3-47c0-89b9-1608d2674bf5",
+    "user_id": "2bfafaa5-218b-44ec-9799-186b0ee6b3c3",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "special_roles": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-24T16:53:02.802029",
+    "updated_at": "2025-09-24T16:53:02.802031",
+    "shareable_id": "94a318d8",
+    "_id": "68d421eed7b63c721d28631f"
+  },
+  "f86da1b0-5944-4e4c-8c4a-063bcdd5335a": {
+    "id": "f86da1b0-5944-4e4c-8c4a-063bcdd5335a",
+    "user_id": "7d844151-5119-4122-a3a7-3cac44a514ab",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "special_roles": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-24T19:59:42.283073",
+    "updated_at": "2025-09-24T19:59:42.283075",
+    "shareable_id": "81528367",
+    "_id": "68d44dae6b3adcdc805454b9"
+  },
+  "a6ee0512-8644-4da7-9168-c1024e011fe9": {
+    "id": "a6ee0512-8644-4da7-9168-c1024e011fe9",
+    "user_id": "936abf1a-da4e-4841-a2be-9b78ac5ec416",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "special_roles": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-24T19:59:49.992176",
+    "updated_at": "2025-09-24T19:59:49.992177",
+    "shareable_id": "7fa428a5",
+    "_id": "68d44db56b3adcdc805454bc"
+  },
+  "b18752f4-ec3b-4857-8a11-817f67947089": {
+    "id": "b18752f4-ec3b-4857-8a11-817f67947089",
+    "user_id": "91340242-7eb8-4942-90a1-f763da3f0ea9",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [
+      {
+        "name": "Emma Johnson",
+        "designation": "Maid of Honor",
+        "description": "Best friend since college",
+        "photo": "https://images.unsplash.com/photo-1494790108755-2616b612b789?w=300"
+      }
+    ],
+    "groom_party": [
+      {
+        "name": "David Wilson",
+        "designation": "Best Man",
+        "description": "Brother and best friend",
+        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300"
+      }
+    ],
+    "special_roles": [
+      {
+        "name": "Grace Thompson",
+        "designation": "Flower Girl",
+        "description": "Adorable niece",
+        "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300"
+      }
+    ],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-25T11:26:48.318386",
+    "updated_at": "2025-09-25T11:27:07.505015",
+    "shareable_id": "04a74629",
+    "_id": "68d526f80c2046efc6e9ada7"
+  },
+  "5be81701-fbc2-43f9-ace9-62615efa66f0": {
+    "id": "5be81701-fbc2-43f9-ace9-62615efa66f0",
+    "user_id": "150ee492-a79f-4ed3-bad1-5e1dd6919ad4",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "special_roles": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-25T19:49:59.330001",
+    "updated_at": "2025-09-25T19:49:59.330002",
+    "shareable_id": "c4f0e112",
+    "_id": "68d59ce780be626d1c74a671"
+  },
+  "cf3c5250-db70-4c76-9234-869d957ef7d8": {
+    "couple_name_1": "Gallery",
+    "couple_name_2": "Tester",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Test Venue",
+    "venue_location": "Test Location",
+    "their_story": "Our test story",
+    "schedule_events": [
+      {
+        "id": "3175426c-a87b-4efd-a5e0-f3ec6eeb32b2",
+        "time": "2:00 PM",
+        "title": "Wedding Ceremony",
+        "description": "Join us as we exchange vows in the beautiful garden pavilion",
+        "location": "Garden Pavilion at Sunset Estate",
+        "duration": "45 minutes",
+        "date": "2025-06-15",
+        "highlight": true
+      },
+      {
+        "id": "3e40b617-2de2-43f8-bf54-7ffb873bcd68",
+        "time": "3:00 PM",
+        "title": "Cocktail Hour",
+        "description": "Celebrate with drinks and appetizers on the terrace",
+        "location": "Sunset Terrace",
+        "duration": "60 minutes",
+        "date": "2025-06-15",
+        "highlight": false
+      },
+      {
+        "id": "e1638dd9-a817-489d-9c63-af2e38add022",
+        "time": "4:30 PM",
+        "title": "Reception Dinner",
+        "description": "Dinner, dancing, and celebration in the grand ballroom",
+        "location": "Grand Ballroom",
+        "duration": "4 hours",
+        "date": "2025-06-15",
+        "highlight": true
+      }
+    ],
+    "important_info": {
+      "dress_code": {
+        "title": "Dress Code",
+        "description": "Formal attire requested. Ladies, please consider comfortable shoes for outdoor ceremony.",
+        "enabled": true
+      },
+      "parking": {
+        "title": "Parking Information",
+        "description": "Complimentary valet parking available at the main entrance.",
+        "enabled": true
+      },
+      "accommodations": {
+        "title": "Hotel Accommodations",
+        "description": "We have reserved blocks at nearby hotels. Please see our website for details.",
+        "enabled": true
+      }
+    },
+    "updated_at": "2025-09-26T07:25:56.829666",
+    "user_id": "5a188707-d5b7-411a-99de-d3c2321f4186",
+    "id": "cf3c5250-db70-4c76-9234-869d957ef7d8",
+    "shareable_id": "d5f9feab",
+    "created_at": "2025-09-26T07:17:49.012939"
+  },
+  "571619bf-87b5-486a-9d15-e8f2456b6d00": {
+    "id": "571619bf-87b5-486a-9d15-e8f2456b6d00",
+    "user_id": "9f003229-90c9-4758-99cc-a9b375b0ef37",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "special_roles": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [
+      {
+        "question": "What is the dress code for the wedding?",
+        "answer": "We recommend cocktail attire. Ladies, please consider comfortable shoes for outdoor surfaces."
+      },
+      {
+        "question": "Will vegetarian food be available?",
+        "answer": "Yes, we will have a full vegetarian menu available alongside non-vegetarian options."
+      },
+      {
+        "question": "Is there parking available at the venue?",
+        "answer": "Yes, complimentary valet parking is available at the venue entrance."
+      },
+      {
+        "question": "Can I bring children to the wedding?",
+        "answer": "This is an adults-only celebration. We appreciate your understanding."
+      }
+    ],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-26T11:50:06.727501",
+    "updated_at": "2025-09-26T11:50:09.646993",
+    "shareable_id": "9924a755",
+    "_id": "68d67dee20eda7317f09b6f9"
+  },
+  "b12adc5f-ca5d-4da1-9f92-5db61234aaf0": {
+    "id": "b12adc5f-ca5d-4da1-9f92-5db61234aaf0",
+    "user_id": "a5ee8bf7-c4c2-497c-99cd-057a66c667eb",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "special_roles": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-26T17:29:07.958251",
+    "updated_at": "2025-09-26T17:29:07.958252",
+    "shareable_id": "3509d57d",
+    "_id": "68d6cd63da556341dc29ca7f"
+  },
+  "518024bb-a896-4c27-b526-5fdc50109be8": {
+    "id": "518024bb-a896-4c27-b526-5fdc50109be8",
+    "user_id": "2bc7355f-bc14-4140-a213-c7a36c591186",
+    "couple_name_1": "Sarah",
+    "couple_name_2": "Michael",
+    "wedding_date": "2025-06-15",
+    "venue_name": "Sunset Garden Estate",
+    "venue_location": "Sunset Garden Estate \u2022 Napa Valley, California",
+    "their_story": "We can't wait to celebrate our love story with the people who matter most to us. Join us for an unforgettable evening of joy, laughter, and new beginnings.",
+    "story_timeline": [
+      {
+        "year": "2019",
+        "title": "First Meeting",
+        "description": "We met at a coffee shop in downtown San Francisco on a rainy Tuesday morning.",
+        "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop"
+      }
+    ],
+    "schedule_events": [
+      {
+        "time": "2:00 PM",
+        "title": "Guests Arrival & Welcome",
+        "description": "Please arrive by 2:00 PM for welcome drinks and mingling.",
+        "location": "Sunset Garden Estate - Main Entrance",
+        "duration": "30 minutes",
+        "highlight": false
+      }
+    ],
+    "gallery_photos": [],
+    "bridal_party": [],
+    "groom_party": [],
+    "special_roles": [],
+    "registry_items": [],
+    "honeymoon_fund": {},
+    "faqs": [],
+    "theme": "classic",
+    "rsvp_responses": [],
+    "created_at": "2025-09-26T19:46:49.520255",
+    "updated_at": "2025-09-26T19:46:49.520257",
+    "shareable_id": "4d0e1f34",
+    "_id": "68d6eda9b2cb92a1e93bafb0"
+  }
+}
