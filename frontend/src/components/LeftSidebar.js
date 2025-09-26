@@ -1719,6 +1719,9 @@ const LeftSidebar = () => {
           onClose={() => setActiveForm(null)}
           theme={theme}
           modalRef={modalRef}
+          currentTheme={currentTheme}
+          setCurrentTheme={setCurrentTheme}
+          themes={themes}
         />
       )}
 
