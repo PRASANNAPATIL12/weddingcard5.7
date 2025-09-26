@@ -214,13 +214,43 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
     }
   };
 
-  const downloadQRCode = () => {
-    if (canvasRef.current) {
+  const downloadQRCode = async () => {
+    if (!canvasRef.current) return;
+    
+    setDownloadProgress(25);
+    
+    try {
       const canvas = canvasRef.current;
       const link = document.createElement('a');
-      link.download = `wedding-qr-code-${weddingData?.couple_name_1 || 'wedding'}-${weddingData?.couple_name_2 || 'card'}.png`;
-      link.href = canvas.toDataURL();
+      const filename = `wedding-qr-${selectedShape}-${weddingData?.couple_name_1?.toLowerCase() || 'wedding'}-${weddingData?.couple_name_2?.toLowerCase() || 'card'}-${Date.now()}.png`;
+      
+      setDownloadProgress(75);
+      
+      // Enhanced canvas with better quality
+      const highResCanvas = document.createElement('canvas');
+      const highResCtx = highResCanvas.getContext('2d');
+      
+      // Create high-resolution version (2x)
+      highResCanvas.width = canvas.width * 2;
+      highResCanvas.height = canvas.height * 2;
+      
+      highResCtx.imageSmoothingEnabled = false;
+      highResCtx.drawImage(canvas, 0, 0, highResCanvas.width, highResCanvas.height);
+      
+      setDownloadProgress(90);
+      
+      link.download = filename;
+      link.href = highResCanvas.toDataURL('image/png', 1.0);
       link.click();
+      
+      setDownloadProgress(100);
+      
+      // Reset progress after download
+      setTimeout(() => setDownloadProgress(0), 1000);
+      
+    } catch (error) {
+      console.error('Download failed:', error);
+      setDownloadProgress(0);
     }
   };
 
@@ -228,26 +258,40 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
     const [showPicker, setShowPicker] = useState(false);
     const [customColor, setCustomColor] = useState(currentColor);
 
+    // Prevent event bubbling to avoid modal closing
+    const handlePickerClick = (e) => {
+      e.stopPropagation();
+    };
+
+    const handleColorSelect = (color) => {
+      setCustomColor(color);
+      onChange(color);
+      // Don't close picker immediately for better UX
+    };
+
     return (
-      <div className="space-y-2">
+      <div className="space-y-2" onClick={handlePickerClick}>
         <label className="block text-sm font-medium" style={{ color: theme.text }}>
           {label}
         </label>
         
         {/* Current Color Display */}
         <div 
-          className="w-full h-10 rounded-lg border-2 cursor-pointer flex items-center justify-center"
+          className="w-full h-12 rounded-lg border-2 cursor-pointer flex items-center justify-center shadow-sm hover:shadow-md transition-shadow"
           style={{ 
             backgroundColor: currentColor,
             borderColor: theme.accent
           }}
-          onClick={() => setShowPicker(!showPicker)}
+          onClick={(e) => {
+            e.stopPropagation();
+            setShowPicker(!showPicker);
+          }}
         >
           <span 
             className="text-sm font-medium"
             style={{ 
-              color: currentColor === '#FFFFFF' ? '#000000' : '#FFFFFF',
-              textShadow: '0 0 2px rgba(0,0,0,0.5)'
+              color: currentColor === '#FFFFFF' || currentColor === '#FFFF00' ? '#000000' : '#FFFFFF',
+              textShadow: '0 0 4px rgba(0,0,0,0.7)'
             }}
           >
             {currentColor}
@@ -255,52 +299,75 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
         </div>
 
         {showPicker && (
-          <div className="p-4 bg-white rounded-lg shadow-lg border">
+          <div className="p-4 bg-white rounded-lg shadow-xl border-2 border-gray-200 relative z-50">
+            {/* Close button */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setShowPicker(false);
+              }}
+              className="absolute top-2 right-2 w-6 h-6 bg-gray-200 hover:bg-gray-300 rounded-full flex items-center justify-center text-xs"
+            >
+              ×
+            </button>
+
             {/* HTML5 Color Picker */}
             <div className="mb-4">
+              <label className="block text-xs font-medium text-gray-700 mb-1">Custom Color</label>
               <input
                 type="color"
                 value={customColor}
                 onChange={(e) => {
-                  setCustomColor(e.target.value);
-                  onChange(e.target.value);
+                  e.stopPropagation();
+                  handleColorSelect(e.target.value);
                 }}
                 className="w-full h-12 rounded-lg border cursor-pointer"
+                onClick={handlePickerClick}
               />
             </div>
 
             {/* Hex Input */}
             <div className="mb-4">
+              <label className="block text-xs font-medium text-gray-700 mb-1">Hex Code</label>
               <input
                 type="text"
                 value={customColor}
                 onChange={(e) => {
-                  setCustomColor(e.target.value);
-                  if (/^#[0-9A-F]{6}$/i.test(e.target.value)) {
-                    onChange(e.target.value);
+                  e.stopPropagation();
+                  const value = e.target.value;
+                  setCustomColor(value);
+                  if (/^#[0-9A-F]{6}$/i.test(value)) {
+                    handleColorSelect(value);
                   }
                 }}
-                className="w-full p-2 border rounded-lg text-center font-mono"
+                className="w-full p-2 border rounded-lg text-center font-mono text-sm"
                 placeholder="#000000"
+                onClick={handlePickerClick}
               />
             </div>
 
             {/* Preset Colors */}
-            <div className="grid grid-cols-8 gap-2">
-              {presetColors.map((color) => (
-                <button
-                  key={color}
-                  className={`w-8 h-8 rounded-lg border-2 ${
-                    currentColor === color ? 'ring-2 ring-blue-500' : ''
-                  }`}
-                  style={{ backgroundColor: color, borderColor: color === '#FFFFFF' ? '#e5e7eb' : color }}
-                  onClick={() => {
-                    setCustomColor(color);
-                    onChange(color);
-                  }}
-                  title={color}
-                />
-              ))}
+            <div>
+              <label className="block text-xs font-medium text-gray-700 mb-2">Preset Colors</label>
+              <div className="grid grid-cols-8 gap-2">
+                {presetColors.map((color) => (
+                  <button
+                    key={color}
+                    className={`w-8 h-8 rounded-lg border-2 hover:scale-110 transition-transform ${
+                      currentColor === color ? 'ring-2 ring-blue-500 ring-offset-1' : ''
+                    }`}
+                    style={{ 
+                      backgroundColor: color, 
+                      borderColor: color === '#FFFFFF' ? '#e5e7eb' : color 
+                    }}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleColorSelect(color);
+                    }}
+                    title={color}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         )}
