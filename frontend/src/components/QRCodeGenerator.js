@@ -376,63 +376,72 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 max-w-full overflow-hidden">
       <div className="flex items-center justify-between">
         <div>
-          <h3 className="text-2xl font-semibold mb-2" style={{ color: theme.primary }}>
+          <h3 className="text-xl md:text-2xl font-semibold mb-2" style={{ color: theme.primary }}>
             QR Code Generator
           </h3>
           <p className="text-sm" style={{ color: theme.textLight }}>
-            Generate a custom QR code for your wedding invitation
+            Create a custom QR code for your wedding invitation
           </p>
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8">
-        {/* Controls */}
-        <div className="space-y-6">
-          {/* Frame Options */}
-          <div className="bg-cyan-500 text-white p-3 rounded-lg">
+      <div className="grid lg:grid-cols-2 gap-6">
+        {/* Controls - Responsive */}
+        <div className="space-y-6 order-2 lg:order-1">
+          {/* Premium Feature Badge */}
+          <div className="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-3 rounded-lg">
             <div className="flex items-center justify-between">
-              <span className="font-semibold">FRAME</span>
-              <span className="bg-blue-800 px-2 py-1 rounded text-xs font-bold">NEW!</span>
+              <span className="font-semibold">PREMIUM QR STYLES</span>
+              <span className="bg-white bg-opacity-20 px-2 py-1 rounded text-xs font-bold">PRO</span>
             </div>
           </div>
 
           {/* Shape & Color Section */}
-          <div className="space-y-4">
+          <div className="space-y-6">
             <h4 className="text-lg font-semibold" style={{ color: theme.text }}>
-              SHAPE & COLOR
+              SHAPE & STYLE
             </h4>
 
-            {/* Shape Selection */}
+            {/* Enhanced Shape Selection with Descriptions */}
             <div>
               <label className="block text-sm font-medium mb-3" style={{ color: theme.text }}>
-                QR Code Shape
+                QR Code Pattern
               </label>
-              <div className="grid grid-cols-3 gap-3">
+              <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
                 {shapes.map((shape) => {
                   const Icon = shape.icon;
                   return (
                     <button
                       key={shape.id}
-                      onClick={() => setSelectedShape(shape.id)}
-                      className={`p-3 rounded-lg border-2 transition-all duration-200 ${
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedShape(shape.id);
+                      }}
+                      className={`p-4 rounded-xl border-2 transition-all duration-300 hover:scale-105 ${
                         selectedShape === shape.id 
-                          ? 'border-blue-500 bg-blue-50' 
-                          : 'border-gray-300 hover:border-gray-400'
+                          ? 'border-blue-500 bg-gradient-to-br from-blue-50 to-blue-100 shadow-lg' 
+                          : 'border-gray-300 hover:border-gray-400 bg-white hover:bg-gray-50'
                       }`}
                     >
-                      <Icon className="w-6 h-6 mx-auto mb-1" />
-                      <span className="text-xs">{shape.name}</span>
+                      <div className="text-center">
+                        <div className="flex items-center justify-center mb-2">
+                          <Icon className="w-6 h-6" />
+                          <span className="ml-2 text-2xl">{shape.preview}</span>
+                        </div>
+                        <div className="text-xs font-medium text-gray-800">{shape.name}</div>
+                        <div className="text-xs text-gray-500 mt-1">{shape.description}</div>
+                      </div>
                     </button>
                   );
                 })}
               </div>
             </div>
 
-            {/* Color Pickers */}
-            <div className="grid grid-cols-2 gap-4">
+            {/* Enhanced Color Pickers */}
+            <div className="grid md:grid-cols-2 gap-4">
               <ColorPicker 
                 currentColor={qrColor}
                 onChange={(color) => handleColorChange(color, 'qr')}
@@ -444,70 +453,168 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
                 label="Background Color"
               />
             </div>
+
+            {/* Style Info */}
+            <div className="bg-blue-50 p-4 rounded-lg">
+              <div className="flex items-start gap-3">
+                <QrCodeIcon className="w-5 h-5 text-blue-600 mt-0.5" />
+                <div className="text-sm text-blue-800">
+                  <p className="font-medium">Currently selected: {shapes.find(s => s.id === selectedShape)?.name}</p>
+                  <p className="text-xs mt-1">{shapes.find(s => s.id === selectedShape)?.description}</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          {/* Download Button */}
+          {/* Enhanced Download Button */}
           <button
-            onClick={downloadQRCode}
-            disabled={isGenerating}
-            className="w-full flex items-center justify-center gap-2 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 disabled:opacity-50"
+            onClick={(e) => {
+              e.stopPropagation();
+              downloadQRCode();
+            }}
+            disabled={isGenerating || downloadProgress > 0}
+            className="w-full flex items-center justify-center gap-2 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:hover:scale-100 shadow-lg hover:shadow-xl"
             style={{
-              background: theme.gradientAccent,
+              background: isGenerating || downloadProgress > 0 
+                ? 'linear-gradient(45deg, #6b7280, #9ca3af)' 
+                : theme.gradientAccent,
               color: theme.primary
             }}
           >
-            {isGenerating ? (
-              <RefreshCw className="w-5 h-5 animate-spin" />
+            {downloadProgress > 0 ? (
+              <div className="flex items-center gap-2">
+                <div className="w-5 h-5 border-2 border-current border-t-transparent rounded-full animate-spin" />
+                <span>Downloading {downloadProgress}%</span>
+              </div>
+            ) : isGenerating ? (
+              <div className="flex items-center gap-2">
+                <RefreshCw className="w-5 h-5 animate-spin" />
+                <span>Generating...</span>
+              </div>
             ) : (
-              <Download className="w-5 h-5" />
+              <div className="flex items-center gap-2">
+                <Download className="w-5 h-5" />
+                <span>Download QR Code</span>
+              </div>
             )}
-            {isGenerating ? 'Generating...' : 'Download QR Code'}
           </button>
+
+          {/* Quick Actions */}
+          <div className="grid grid-cols-2 gap-3">
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setQrColor('#000000');
+                setBackgroundColor('#FFFFFF');
+                setSelectedShape('square');
+              }}
+              className="py-2 px-4 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm font-medium transition-colors"
+            >
+              Reset to Default
+            </button>
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                const randomColor = presetColors[Math.floor(Math.random() * presetColors.length)];
+                const randomBg = presetColors[Math.floor(Math.random() * presetColors.length)];
+                setQrColor(randomColor);
+                setBackgroundColor(randomBg);
+              }}
+              className="py-2 px-4 bg-purple-100 hover:bg-purple-200 rounded-lg text-sm font-medium transition-colors"
+            >
+              Random Colors
+            </button>
+          </div>
         </div>
 
-        {/* Preview */}
-        <div className="space-y-4">
+        {/* Preview - Enhanced and Responsive */}
+        <div className="space-y-4 order-1 lg:order-2">
           <h4 className="text-lg font-semibold" style={{ color: theme.text }}>
-            Preview
+            Live Preview
           </h4>
           
-          <div className="bg-white p-6 rounded-lg shadow-lg border">
-            {qrCodeUrl && (
+          <div className="bg-white p-6 rounded-xl shadow-xl border-2 border-gray-100">
+            {qrCodeUrl ? (
               <div className="text-center">
-                <img
-                  src={qrCodeUrl}
-                  alt="QR Code Preview"
-                  className="w-64 h-64 mx-auto rounded-lg shadow-md"
-                  style={{ backgroundColor: backgroundColor }}
-                />
-                <p className="mt-4 text-sm text-gray-600">
+                <div className="relative inline-block">
+                  <img
+                    src={qrCodeUrl}
+                    alt="QR Code Preview"
+                    className="w-full max-w-xs mx-auto rounded-lg shadow-lg"
+                    style={{ backgroundColor: backgroundColor }}
+                    onError={(e) => {
+                      console.error('QR code failed to load');
+                      e.target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2Y5ZmFmYiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjNmI3MjgwIj5RUiBDb2RlIEVycm9yPC90ZXh0Pjwvc3ZnPg==';
+                    }}
+                  />
+                  {selectedShape === 'classy' && (
+                    <div className="absolute -inset-2 border-4 border-dashed border-gray-300 rounded-lg" />
+                  )}
+                </div>
+                <p className="mt-4 text-sm text-gray-600 font-medium">
                   Scan to visit: {weddingData?.couple_name_1} & {weddingData?.couple_name_2}'s Wedding
                 </p>
+                {isGenerating && (
+                  <div className="mt-2">
+                    <div className="animate-pulse bg-gray-200 h-2 rounded w-full" />
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="w-full h-64 flex items-center justify-center text-gray-400">
+                <div className="text-center">
+                  <QrCodeIcon className="w-16 h-16 mx-auto mb-4" />
+                  <p>Generating QR Code...</p>
+                </div>
               </div>
             )}
           </div>
 
-          {/* Wedding Info */}
-          <div className="bg-white/10 p-4 rounded-lg">
-            <h5 className="font-semibold mb-2" style={{ color: theme.text }}>
+          {/* Wedding Info Card */}
+          <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-4 rounded-lg">
+            <h5 className="font-semibold mb-3" style={{ color: theme.text }}>
               Wedding Details
             </h5>
-            <div className="text-sm space-y-1" style={{ color: theme.textLight }}>
-              <p>Couple: {weddingData?.couple_name_1} & {weddingData?.couple_name_2}</p>
-              <p>Date: {weddingData?.wedding_date}</p>
-              <p>Venue: {weddingData?.venue_name}</p>
-              <p className="break-all">URL: {shareableUrl}</p>
+            <div className="text-sm space-y-2" style={{ color: theme.textLight }}>
+              <div className="flex justify-between">
+                <span>Couple:</span>
+                <span className="font-medium">{weddingData?.couple_name_1} & {weddingData?.couple_name_2}</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Date:</span>
+                <span className="font-medium">{weddingData?.wedding_date}</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Venue:</span>
+                <span className="font-medium">{weddingData?.venue_name}</span>
+              </div>
+              <div className="pt-2 border-t">
+                <p className="text-xs text-gray-500 break-all">
+                  <strong>QR URL:</strong> {shareableUrl}
+                </p>
+              </div>
             </div>
+          </div>
+
+          {/* Tips */}
+          <div className="bg-yellow-50 p-4 rounded-lg">
+            <h6 className="font-semibold text-yellow-800 mb-2">💡 Pro Tips</h6>
+            <ul className="text-xs text-yellow-700 space-y-1">
+              <li>• High contrast colors work best for scanning</li>
+              <li>• Test your QR code before printing</li>
+              <li>• Classy style includes decorative borders</li>
+              <li>• Download provides high-resolution image</li>
+            </ul>
           </div>
         </div>
       </div>
 
-      {/* Hidden Canvas for Download */}
+      {/* Hidden Canvas for Enhanced Download */}
       <canvas
         ref={canvasRef}
         style={{ display: 'none' }}
-        width={300}
-        height={300}
+        width={400}
+        height={400}
       />
     </div>
   );
