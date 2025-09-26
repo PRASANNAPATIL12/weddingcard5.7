@@ -5,7 +5,11 @@ import {
   Square, 
   Circle,
   RefreshCw,
-  QrCode as QrCodeIcon
+  QrCode as QrCodeIcon,
+  Hexagon,
+  Star,
+  Diamond,
+  Heart
 } from 'lucide-react';
 
 const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
@@ -14,6 +18,7 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
   const [selectedShape, setSelectedShape] = useState('square');
   const [qrCodeUrl, setQrCodeUrl] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
+  const [downloadProgress, setDownloadProgress] = useState(0);
   const canvasRef = useRef(null);
 
   // Generate shareable URL for QR code
@@ -21,14 +26,56 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
     ? `${window.location.origin}/share/${weddingData.shareable_id}`
     : `${window.location.origin}/wedding/${weddingData?.id}`;
 
-  // QR code shapes
+  // Enhanced QR code shapes with unique visual characteristics
   const shapes = [
-    { id: 'square', name: 'Square', icon: Square },
-    { id: 'rounded', name: 'Rounded', icon: Square },
-    { id: 'dots', name: 'Dots', icon: Circle },
-    { id: 'rounded-dots', name: 'Rounded Dots', icon: Circle },
-    { id: 'extra-rounded', name: 'Extra Rounded', icon: Square },
-    { id: 'classy', name: 'Classy', icon: Square }
+    { 
+      id: 'square', 
+      name: 'Classic Square', 
+      icon: Square, 
+      description: 'Traditional sharp edges',
+      preview: '⬛',
+      apiStyle: '&qzone=1&format=png'
+    },
+    { 
+      id: 'rounded', 
+      name: 'Rounded Corners', 
+      icon: Square, 
+      description: 'Soft rounded edges',
+      preview: '⬜',
+      apiStyle: '&qzone=1&format=png&style=rounded'
+    },
+    { 
+      id: 'dots', 
+      name: 'Circular Dots', 
+      icon: Circle, 
+      description: 'Perfect circles',
+      preview: '●',
+      apiStyle: '&qzone=0&format=png'
+    },
+    { 
+      id: 'rounded-dots', 
+      name: 'Rounded Dots', 
+      icon: Circle, 
+      description: 'Smooth circular dots',
+      preview: '⚫',
+      apiStyle: '&qzone=2&format=png'
+    },
+    { 
+      id: 'extra-rounded', 
+      name: 'Extra Rounded', 
+      icon: Square, 
+      description: 'Maximum roundness',
+      preview: '🔲',
+      apiStyle: '&qzone=3&format=png'
+    },
+    { 
+      id: 'classy', 
+      name: 'Classy Border', 
+      icon: Diamond, 
+      description: 'Elegant with border',
+      preview: '◈',
+      apiStyle: '&qzone=4&format=png&margin=2'
+    }
   ];
 
   // Pre-defined colors
