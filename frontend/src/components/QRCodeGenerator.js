@@ -78,12 +78,17 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
     }
   ];
 
-  // Pre-defined colors
+  // Pre-defined colors with better variety
   const presetColors = [
-    '#FF0000', '#FF8000', '#FFFF00', '#00FF00', 
-    '#00FFFF', '#0000FF', '#8000FF', '#000000',
-    '#FFFFFF', '#808080', '#800000', '#008000',
-    '#000080', '#800080', '#FFC0CB', '#FFA500'
+    // Primary colors
+    '#000000', '#FFFFFF', '#808080', '#FF0000', 
+    // Theme colors
+    '#d4af37', '#1a1a1a', '#ff6b6b', '#2c2c2c',
+    // Wedding colors
+    '#8b4513', '#cd853f', '#FF69B4', '#FFB6C1',
+    // Elegant colors
+    '#4B0082', '#800080', '#008B8B', '#006400',
+    '#B22222', '#FF8C00', '#32CD32', '#1E90FF'
   ];
 
   useEffect(() => {
@@ -93,30 +98,13 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
   const generateQRCode = async () => {
     setIsGenerating(true);
     try {
-      // Use QR Server API with custom styling
+      // Use different QR code APIs based on shape for better variety
       const qrUrl = buildQRCodeUrl();
       setQrCodeUrl(qrUrl);
       
-      // Draw on canvas for download functionality
+      // Draw on canvas for download functionality with enhanced features
       if (canvasRef.current) {
-        const canvas = canvasRef.current;
-        const ctx = canvas.getContext('2d');
-        const img = new Image();
-        
-        img.crossOrigin = 'anonymous';
-        img.onload = () => {
-          canvas.width = 300;
-          canvas.height = 300;
-          
-          // Fill background
-          ctx.fillStyle = backgroundColor;
-          ctx.fillRect(0, 0, 300, 300);
-          
-          // Draw QR code
-          ctx.drawImage(img, 0, 0, 300, 300);
-        };
-        
-        img.src = qrUrl;
+        await drawQRCodeOnCanvas(qrUrl);
       }
     } catch (error) {
       console.error('Error generating QR code:', error);
@@ -125,16 +113,95 @@ const QRCodeGenerator = ({ weddingData, theme, onClose }) => {
     }
   };
 
+  const drawQRCodeOnCanvas = async (qrUrl) => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext('2d');
+    const img = new Image();
+    
+    return new Promise((resolve) => {
+      img.crossOrigin = 'anonymous';
+      img.onload = () => {
+        canvas.width = 400;
+        canvas.height = 400;
+        
+        // Enhanced background with gradient for classy style
+        if (selectedShape === 'classy') {
+          const gradient = ctx.createLinearGradient(0, 0, 400, 400);
+          gradient.addColorStop(0, backgroundColor);
+          gradient.addColorStop(1, adjustBrightness(backgroundColor, -10));
+          ctx.fillStyle = gradient;
+        } else {
+          ctx.fillStyle = backgroundColor;
+        }
+        ctx.fillRect(0, 0, 400, 400);
+        
+        // Add decorative border for classy style
+        if (selectedShape === 'classy') {
+          ctx.strokeStyle = adjustBrightness(qrColor, 20);
+          ctx.lineWidth = 8;
+          ctx.strokeRect(20, 20, 360, 360);
+          
+          // Inner border
+          ctx.strokeStyle = qrColor;
+          ctx.lineWidth = 2;
+          ctx.strokeRect(30, 30, 340, 340);
+          
+          // Draw QR code with padding
+          ctx.drawImage(img, 40, 40, 320, 320);
+        } else {
+          // Standard QR code drawing
+          ctx.drawImage(img, 50, 50, 300, 300);
+        }
+        
+        resolve();
+      };
+      
+      img.onerror = () => {
+        console.error('Failed to load QR code image');
+        resolve();
+      };
+      
+      img.src = qrUrl;
+    });
+  };
+
+  const adjustBrightness = (hex, percent) => {
+    // Convert hex to RGB
+    const num = parseInt(hex.replace("#", ""), 16);
+    const amt = Math.round(2.55 * percent);
+    const R = (num >> 16) + amt;
+    const G = (num >> 8 & 0x00FF) + amt;
+    const B = (num & 0x0000FF) + amt;
+    return "#" + (0x1000000 + (R < 255 ? R < 1 ? 0 : R : 255) * 0x10000 +
+      (G < 255 ? G < 1 ? 0 : G : 255) * 0x100 +
+      (B < 255 ? B < 1 ? 0 : B : 255)).toString(16).slice(1);
+  };
+
   const buildQRCodeUrl = () => {
-    const baseUrl = 'https://api.qrserver.com/v1/create-qr-code/';
+    const selectedShapeData = shapes.find(s => s.id === selectedShape);
+    let baseUrl = 'https://api.qrserver.com/v1/create-qr-code/';
+    
+    // Different APIs for different styles
+    if (selectedShape === 'dots' || selectedShape === 'rounded-dots') {
+      // Use alternative API for better dot patterns
+      baseUrl = 'https://qr-code-styling.com/api/create';
+      return `${baseUrl}?data=${encodeURIComponent(shareableUrl)}&size=300&format=png&color=${qrColor.replace('#', '')}&backgroundColor=${backgroundColor.replace('#', '')}&dotType=${selectedShape === 'dots' ? 'square' : 'rounded'}&cornerType=square`;
+    }
+    
     const params = new URLSearchParams({
       size: '300x300',
       data: shareableUrl,
       color: qrColor.replace('#', ''),
       bgcolor: backgroundColor.replace('#', ''),
       format: 'png',
-      ecc: 'M'
+      ecc: 'M',
+      margin: selectedShape === 'classy' ? '2' : '0'
     });
+
+    // Add shape-specific parameters
+    if (selectedShape === 'rounded' || selectedShape === 'extra-rounded') {
+      params.append('qzone', selectedShape === 'extra-rounded' ? '3' : '1');
+    }
 
     return `${baseUrl}?${params.toString()}`;
   };
